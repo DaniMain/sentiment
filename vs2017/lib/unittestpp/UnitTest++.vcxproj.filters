@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\AssertException.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Checks.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\CompositeTestReporter.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\CurrentTest.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\DeferredTestReporter.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\DeferredTestResult.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\MemoryOutStream.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\ReportAssert.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Test.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestDetails.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestList.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestReporter.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestReporterStdout.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestResults.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestRunner.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TimeConstraint.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\XmlTestReporter.cpp" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Win32\TimeHelpers.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\AssertException.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\CheckMacros.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Checks.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\CompositeTestReporter.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Config.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\CurrentTest.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\DeferredTestReporter.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\DeferredTestResult.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\ExceptionMacros.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\ExecuteTest.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\HelperMacros.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\MemoryOutStream.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\ReportAssert.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\ReportAssertImpl.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Test.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestDetails.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestList.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestMacros.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestReporter.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestReporterStdout.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestResults.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestRunner.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestSuite.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TimeConstraint.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TimeHelpers.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\UnitTest++.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\UnitTestPP.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\XmlTestReporter.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Win32\TimeHelpers.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{7EB36B2E-5AC1-3AAA-8F66-47CACB11C9E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

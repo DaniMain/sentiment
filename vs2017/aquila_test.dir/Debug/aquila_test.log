@@ -1,0 +1,158 @@
+﻿  Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/tests/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /I"C:\Users\User\Documents\aquila\aquila-src" /I"C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp" /IC:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\tests /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_NONSTDC_NO_DEPRECATE /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"aquila_test.dir\Debug\\" /Fd"aquila_test.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\User\Documents\aquila\aquila-src\tests\main.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\functions.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\Exceptions.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\filter\MelFilter.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\filter\MelFilterBank.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\ml\Dtw.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\Frame.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\FramesCollection.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\PlainTextFile.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\SignalSource.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\WaveFile.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\SineGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\SquareGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\TriangleGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\WhiteNoiseGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\PinkNoiseGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\window\BarlettWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\window\BlackmanWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\window\FlattopWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\window\GaussianWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\window\HammingWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\window\HannWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\source\window\RectangularWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\tools\TextPlot.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\transform\AquilaFft.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\transform\Dft.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\transform\Fft.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\transform\Mfcc.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\transform\OouraFft.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\transform\Dct.cpp" "C:\Users\User\Documents\aquila\aquila-src\tests\transform\Spectrogram.cpp"
+  
+  main.cpp
+  functions.cpp
+  Exceptions.cpp
+  MelFilter.cpp
+C:\Users\User\Documents\aquila\aquila-src\tests\filter\MelFilter.cpp(58): warning C4244: 'inizializzazione': conversione da 'Aquila::FrequencyType' a '::size_t'. Possibile perdita di dati.
+  MelFilterBank.cpp
+C:\Users\User\Documents\aquila\aquila-src\tests\filter\MelFilterBank.cpp(20): warning C4244: 'inizializzazione': conversione da 'Aquila::FrequencyType' a '::size_t'. Possibile perdita di dati.
+  C:\Users\User\Documents\aquila\aquila-src\tests\filter\MelFilterBank.cpp(45): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  Dtw.cpp
+  Frame.cpp
+  FramesCollection.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2889): warning C4996: 'std::equal::_Unchecked_iterators::_Deprecate': Call to 'std::equal' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2889): note: vedere la dichiarazione di 'std::equal::_Unchecked_iterators::_Deprecate'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2914): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\FramesCollection.cpp(10): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  PlainTextFile.cpp
+  RawPcmFile.cpp
+C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(59): warning C4244: 'inizializzazione': conversione da 'std::streamsize' a '::size_t'. Possibile perdita di dati.
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(49): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(29): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(29): note: vedere il riferimento all'istanza '<Sconosciuto>' di modello <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2350): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2350): note: vedere la dichiarazione di 'std::copy::_Unchecked_iterators::_Deprecate'
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int64_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'int64_t' a 'double'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1387): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1405): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1405): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(64): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(64): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(49): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(16): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'uint64_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'uint64_t' a 'double'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1387): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1405): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1405): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(64): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(64): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(49): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(16): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int32_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'uint32_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int16_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int8_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'uint8_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2310): warning C4244: '=': conversione da 'Aquila::SampleType' a 'uint16_t'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2329): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2342): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2351): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(82): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Users\User\Documents\aquila\aquila-src\aquila/source/RawPcmFile.h(76): note: durante la compilazione della funzione membro '<Sconosciuto>' di modello <Sconosciuto>
+  C:\Users\User\Documents\aquila\aquila-src\tests\source\RawPcmFile.cpp(14): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(840): warning C4244: 'inizializzazione': conversione da 'int64_t' a 'double'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(959): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(959): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(1097): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(1096): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory(92): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory(92): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory(126): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1859): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1382): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1382): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(840): warning C4244: 'inizializzazione': conversione da 'uint64_t' a 'double'. Possibile perdita di dati.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(959): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(959): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(1097): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory0(1096): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory(92): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory(92): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xmemory(126): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1859): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1382): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\vector(1382): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  SignalSource.cpp
+  WaveFile.cpp
+  SineGenerator.cpp
+  SquareGenerator.cpp
+  TriangleGenerator.cpp
+  WhiteNoiseGenerator.cpp
+C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\WhiteNoiseGenerator.cpp(16): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\WhiteNoiseGenerator.cpp(26): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  PinkNoiseGenerator.cpp
+C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\PinkNoiseGenerator.cpp(16): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+C:\Users\User\Documents\aquila\aquila-src\tests\source\generator\PinkNoiseGenerator.cpp(26): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  BarlettWindow.cpp
+  BlackmanWindow.cpp
+  FlattopWindow.cpp
+  Generazione del codice in corso...
+  Compilazione in corso...
+  GaussianWindow.cpp
+  HammingWindow.cpp
+  HannWindow.cpp
+  RectangularWindow.cpp
+  TextPlot.cpp
+  AquilaFft.cpp
+  Dft.cpp
+  Fft.cpp
+  Mfcc.cpp
+  OouraFft.cpp
+  Dct.cpp
+  Spectrogram.cpp
+C:\Users\User\Documents\aquila\aquila-src\tests\transform\Spectrogram.cpp(23): warning C4244: 'inizializzazione': conversione da 'Aquila::FrequencyType' a '::size_t'. Possibile perdita di dati.
+  Generazione del codice in corso...
+  aquila_test.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\tests\Debug\aquila_test.exe

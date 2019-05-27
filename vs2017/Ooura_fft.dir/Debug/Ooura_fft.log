@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/lib/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/lib/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Ooura_fft.dir\Debug\\" /Fd"Ooura_fft.dir\Debug\Ooura_fft.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Users\User\Documents\aquila\aquila-src\lib\ooura\fft4g.c"
+  
+  fft4g.c
+  Ooura_fft.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\lib\Debug\Ooura_fft.lib

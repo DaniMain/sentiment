@@ -1,0 +1,16 @@
+﻿  provaAMDF.cpp
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(50): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(61): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(68): warning C4244: '+=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(72): warning C4244: '+=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(83): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(92): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(101): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(113): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(132): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(136): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(140): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(250): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\provaamdf\provaamdf.cpp(297): warning C4018: '<': errata corrispondenza tra signed e unsigned
+  provaAMDF.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\provaAMDF.exe
+  provaAMDF.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\provaAMDF.pdb (Partial PDB)

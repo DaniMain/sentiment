@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A5CF83D6-7D79-3196-B151-F987BF5E0373}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Aquila</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\Debug\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Aquila.dir\Debug\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Aquila</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\Release\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Aquila.dir\Release\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Aquila</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\MinSizeRel\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Aquila.dir\MinSizeRel\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Aquila</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\RelWithDebInfo\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Aquila.dir\RelWithDebInfo\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Aquila</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt">
+     <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/User/Documents/aquila/aquila-src -BC:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017 --check-stamp-file C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\User\Documents\aquila\aquila-src\cmake\FindSFML.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\User\Documents\aquila\aquila-src\uninstall.cmake.in;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/User/Documents/aquila/aquila-src -BC:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017 --check-stamp-file C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\User\Documents\aquila\aquila-src\cmake\FindSFML.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\User\Documents\aquila\aquila-src\uninstall.cmake.in;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/User/Documents/aquila/aquila-src -BC:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017 --check-stamp-file C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\User\Documents\aquila\aquila-src\cmake\FindSFML.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\User\Documents\aquila\aquila-src\uninstall.cmake.in;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/User/Documents/aquila/aquila-src -BC:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017 --check-stamp-file C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\User\Documents\aquila\aquila-src\cmake\FindSFML.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Users\User\Documents\aquila\aquila-src\uninstall.cmake.in;C:\Users\User\Documents\aquila\aquila-src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\aquila.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\global.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\functions.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\Exceptions.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\tools.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\filter.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\ml.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\filter\MelFilter.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\filter\MelFilterBank.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\ml\DtwPoint.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\ml\Dtw.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\SignalSource.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\Frame.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\FramesCollection.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\PlainTextFile.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\RawPcmFile.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFile.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFileHandler.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\Generator.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\SineGenerator.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\SquareGenerator.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\TriangleGenerator.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\PinkNoiseGenerator.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\WhiteNoiseGenerator.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\BarlettWindow.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\BlackmanWindow.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\FlattopWindow.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\GaussianWindow.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\HammingWindow.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\HannWindow.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\RectangularWindow.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Fft.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Dft.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\AquilaFft.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\OouraFft.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\FftFactory.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Dct.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Mfcc.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Spectrogram.h" />
+    <ClInclude Include="C:\Users\User\Documents\aquila\aquila-src\aquila\tools\TextPlot.h" />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\filter\MelFilter.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\filter\MelFilterBank.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\ml\Dtw.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\SignalSource.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\Frame.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\FramesCollection.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\PlainTextFile.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFile.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFileHandler.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\Generator.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\SineGenerator.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\SquareGenerator.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\TriangleGenerator.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\PinkNoiseGenerator.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\WhiteNoiseGenerator.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\BarlettWindow.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\BlackmanWindow.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\FlattopWindow.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\GaussianWindow.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\HammingWindow.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\HannWindow.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Dft.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\AquilaFft.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\OouraFft.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\FftFactory.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Dct.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Mfcc.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Spectrogram.cpp"  />
+    <ClCompile Include="C:\Users\User\Documents\aquila\aquila-src\aquila\tools\TextPlot.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\ZERO_CHECK.vcxproj">
+      <Project>43404FB6-B6CD-3AAB-99CD-E4DE39D9856B</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\lib\Ooura_fft.vcxproj">
+      <Project>2B901233-B199-3ACA-BEE9-5301A579E75D</Project>
+      <Name>Ooura_fft</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,8 @@
+﻿  analisi_file_audio.cpp
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio\analisi_file_audio.cpp(119): warning C4244: 'inizializzazione': conversione da 'double' a 'std::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio\analisi_file_audio.cpp(123): warning C4244: 'inizializzazione': conversione da 'double' a 'std::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio\analisi_file_audio.cpp(127): warning C4244: 'inizializzazione': conversione da 'double' a 'std::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio\analisi_file_audio.cpp(237): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio\analisi_file_audio.cpp(322): warning C4018: '<': errata corrispondenza tra signed e unsigned
+  analisi_file_audio.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio.exe
+  analisi_file_audio.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio.pdb (Full PDB)

@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  calcolo_MFCC.cpp
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\calcolo_mfcc\calcolo_mfcc.cpp(102): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\calcolo_mfcc\calcolo_mfcc.cpp(113): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\calcolo_mfcc\calcolo_mfcc.cpp(120): warning C4244: '+=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\calcolo_mfcc\calcolo_mfcc.cpp(124): warning C4244: '+=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\calcolo_mfcc\calcolo_mfcc.cpp(143): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\calcolo_mfcc\calcolo_mfcc.cpp(147): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+  calcolo_MFCC.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\calcolo_MFCC.exe
+  calcolo_MFCC.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\calcolo_MFCC.pdb (Partial PDB)

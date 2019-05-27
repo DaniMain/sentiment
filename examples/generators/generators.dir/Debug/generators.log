@@ -1,0 +1,3 @@
+﻿  generators.cpp
+C:\Users\User\Documenti\aquila_prova\aquila-src\examples\generators\generators.cpp(10): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  generators.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\examples\generators\Debug\generators.exe

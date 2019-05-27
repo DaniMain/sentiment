@@ -1,0 +1,3 @@
+﻿  frame_iteration.cpp
+C:\Users\User\Documenti\aquila_prova\aquila-src\examples\frame_iteration\frame_iteration.cpp(14): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  frame_iteration.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\examples\frame_iteration\Debug\frame_iteration.exe

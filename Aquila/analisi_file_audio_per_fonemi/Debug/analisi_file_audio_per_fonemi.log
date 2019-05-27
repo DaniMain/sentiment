@@ -1,0 +1,15 @@
+﻿  analisi_file_audio_per_fonemi.cpp
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(126): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(137): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(144): warning C4244: '+=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(148): warning C4244: '+=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(159): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(168): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(177): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(196): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(200): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(204): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(314): warning C4018: '<': errata corrispondenza tra signed e unsigned
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_per_fonemi\analisi_file_audio_per_fonemi.cpp(416): warning C4018: '<': errata corrispondenza tra signed e unsigned
+  analisi_file_audio_per_fonemi.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio_per_fonemi.exe
+  analisi_file_audio_per_fonemi.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio_per_fonemi.pdb (Partial PDB)

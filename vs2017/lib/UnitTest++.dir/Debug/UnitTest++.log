@@ -1,0 +1,27 @@
+﻿  Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/lib/unittestpp/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/lib/unittestpp/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /I"C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\." /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"UnitTest++.dir\Debug\\" /Fd"UnitTest++.dir\Debug\UnitTest++.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\AssertException.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Checks.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\CompositeTestReporter.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\CurrentTest.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\DeferredTestReporter.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\DeferredTestResult.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\MemoryOutStream.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\ReportAssert.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Test.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestDetails.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestList.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestReporter.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestReporterStdout.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestResults.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TestRunner.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\TimeConstraint.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\XmlTestReporter.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\UnitTest++\Win32\TimeHelpers.cpp"
+  
+  AssertException.cpp
+  Checks.cpp
+  CompositeTestReporter.cpp
+  CurrentTest.cpp
+  DeferredTestReporter.cpp
+  DeferredTestResult.cpp
+  MemoryOutStream.cpp
+  ReportAssert.cpp
+  Test.cpp
+  TestDetails.cpp
+  TestList.cpp
+  TestReporter.cpp
+  TestReporterStdout.cpp
+  TestResults.cpp
+  TestRunner.cpp
+  TimeConstraint.cpp
+  XmlTestReporter.cpp
+  TimeHelpers.cpp
+  Generazione del codice in corso...
+  UnitTest++.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\lib\unittestpp\Debug\UnitTest++.lib

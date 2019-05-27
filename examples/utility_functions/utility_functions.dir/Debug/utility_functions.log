@@ -1,0 +1,3 @@
+﻿  utility_functions.cpp
+C:\Users\User\Documenti\aquila_prova\aquila-src\examples\utility_functions\utility_functions.cpp(9): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  utility_functions.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\examples\utility_functions\Debug\utility_functions.exe

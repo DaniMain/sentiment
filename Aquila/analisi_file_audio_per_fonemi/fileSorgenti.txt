@@ -1,0 +1,12 @@
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\motociclista_2.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\ragazzina_sclera_su_ask.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\Ragazzo_si_incazza_e_rompe_il_computer.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\litigio_di_sgarbi.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\motociclista_1.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\Super_Angry_Australian.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\Registrazione_matteo.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\propositi_di_lettura_per_il_2015.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\intervista_a_emma_marrone.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\Registrazione_chillura.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\spalletti_dopo_bologna_roma.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\una_parlata_tranquilla.wav

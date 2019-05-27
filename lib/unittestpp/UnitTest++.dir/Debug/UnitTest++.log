@@ -1,0 +1,22 @@
+﻿  Building Custom Rule C:/Users/User/Documenti/aquila_prova/aquila-src/lib/unittestpp/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documenti/aquila_prova/aquila-build/lib/unittestpp/CMakeFiles/generate.stamp is up-to-date.
+  AssertException.cpp
+  Checks.cpp
+  CompositeTestReporter.cpp
+  CurrentTest.cpp
+  DeferredTestReporter.cpp
+  DeferredTestResult.cpp
+  MemoryOutStream.cpp
+  ReportAssert.cpp
+  Test.cpp
+  TestDetails.cpp
+  TestList.cpp
+  TestReporter.cpp
+  TestReporterStdout.cpp
+  TestResults.cpp
+  TestRunner.cpp
+  TimeConstraint.cpp
+  XmlTestReporter.cpp
+  TimeHelpers.cpp
+  Generazione del codice in corso...
+  UnitTest++.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\lib\unittestpp\Debug\UnitTest++.lib

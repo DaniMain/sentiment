@@ -1,0 +1,7 @@
+path_name;caratteristiche
+c:\users\user\documenti\sentiment_per_tirocinio\sentiment\audio\arrabbiato.wav;discretizzatore;1;2;3;4;5;6;7;8;9
+c:\users\user\documenti\sentiment_per_tirocinio\sentiment\audio\arrabbiato.wav;energia;1;2;3;4;5;6;7;8;9
+c:\users\user\documenti\sentiment_per_tirocinio\sentiment\audio\arrabbiato.wav;frequenza;1;2;3;4;5;6;7;8;9
+c:\users\user\documenti\sentiment_per_tirocinio\sentiment\audio\normale.wav;discretizzatore;1;2;3;4;5;6;7;8;9
+c:\users\user\documenti\sentiment_per_tirocinio\sentiment\audio\normale.wav;energia;1;2;3;4;5;6;7;8;9
+c:\users\user\documenti\sentiment_per_tirocinio\sentiment\audio\normale.wav;frequenza;1;2;3;4;5;6;7;8;9

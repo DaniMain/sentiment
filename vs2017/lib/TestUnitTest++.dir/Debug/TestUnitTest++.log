@@ -1,0 +1,30 @@
+﻿  Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/lib/unittestpp/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/lib/unittestpp/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /I"C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\." /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"TestUnitTest++.dir\Debug\\" /Fd"TestUnitTest++.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\Main.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestAssertHandler.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestCheckMacros.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestChecks.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestCompositeTestReporter.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestCurrentTest.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestDeferredTestReporter.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestExceptions.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestMemoryOutStream.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTest.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTestList.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTestMacros.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTestResults.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTestRunner.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTestSuite.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTimeConstraint.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTimeConstraintMacro.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestUnitTestPP.cpp" "C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestXmlTestReporter.cpp"
+  
+  Main.cpp
+  TestAssertHandler.cpp
+  TestCheckMacros.cpp
+  TestChecks.cpp
+  TestCompositeTestReporter.cpp
+  TestCurrentTest.cpp
+  TestDeferredTestReporter.cpp
+  TestExceptions.cpp
+  TestMemoryOutStream.cpp
+  TestTest.cpp
+  TestTestList.cpp
+  TestTestMacros.cpp
+C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTestMacros.cpp(141): warning C4297: '`anonymous-namespace'::FixtureDtorThrows::~FixtureDtorThrows': la funzione genera un'eccezione benché ciò non fosse previsto
+  C:\Users\User\Documents\aquila\aquila-src\lib\unittestpp\tests\TestTestMacros.cpp(141): note: il distruttore o il deallocatore contiene una specifica di eccezione non generata (possibilmente implicita)
+  TestTestResults.cpp
+  TestTestRunner.cpp
+  TestTestSuite.cpp
+  TestTimeConstraint.cpp
+  TestTimeConstraintMacro.cpp
+  TestUnitTestPP.cpp
+  TestXmlTestReporter.cpp
+  Generazione del codice in corso...
+  TestUnitTest++.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\lib\unittestpp\Debug\TestUnitTest++.exe

@@ -1,0 +1,26 @@
+﻿  Building Custom Rule C:/Users/User/Documenti/aquila_prova/aquila-src/lib/unittestpp/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documenti/aquila_prova/aquila-build/lib/unittestpp/CMakeFiles/generate.stamp is up-to-date.
+  UpdateCTestConfiguration  from :C:/Users/User/Documents/aquila_prova/aquila-build/lib/unittestpp/DartConfiguration.tcl
+  UpdateCTestConfiguration  from :C:/Users/User/Documents/aquila_prova/aquila-build/lib/unittestpp/DartConfiguration.tcl
+  Test project C:/Users/User/Documents/aquila_prova/aquila-build/lib/unittestpp
+  Constructing a list of tests
+  Done constructing a list of tests
+  Updating test list for fixtures
+  Added 0 tests to meet fixture requirements
+  Checking test dependency graph...
+  Checking test dependency graph end
+  test 1
+      Start 1: TestUnitTest++
+  
+  1: Test command: NOT_AVAILABLE
+  Test not available without configuration.  (Missing "-C <config>"?)
+  1/1 Test #1: TestUnitTest++ ...................***Not Run   0.00 sec
+  
+  0% tests passed, 1 tests failed out of 1
+  
+  Total Test time (real) =   0.04 sec
+  
+  The following tests FAILED:
+  	  1 - TestUnitTest++ (Not Run)
+  Errors while running CTest
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" terminato con il codice 8.

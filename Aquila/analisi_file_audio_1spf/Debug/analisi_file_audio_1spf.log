@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  analisi_file_audio_1spf.cpp
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(109): warning C4244: 'inizializzazione': conversione da 'double' a 'std::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(112): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(152): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(153): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(154): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(155): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(158): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(159): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(160): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(162): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(167): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(171): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(175): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_1spf\analisi_file_audio_1spf.cpp(177): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+  analisi_file_audio_1spf.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio_1spf.exe
+  analisi_file_audio_1spf.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio_1spf.pdb (Full PDB)

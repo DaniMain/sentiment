@@ -1,0 +1,51 @@
+﻿  Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_NONSTDC_NO_DEPRECATE /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Aquila.dir\Debug\\" /Fd"Aquila.dir\Debug\Aquila.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\User\Documents\aquila\aquila-src\aquila\filter\MelFilter.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\filter\MelFilterBank.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\ml\Dtw.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\SignalSource.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\Frame.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\FramesCollection.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\PlainTextFile.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFile.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFileHandler.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\Generator.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\SineGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\SquareGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\TriangleGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\PinkNoiseGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\generator\WhiteNoiseGenerator.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\BarlettWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\BlackmanWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\FlattopWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\GaussianWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\HammingWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\source\window\HannWindow.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Dft.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\transform\AquilaFft.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\transform\OouraFft.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\transform\FftFactory.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Dct.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Mfcc.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\transform\Spectrogram.cpp" "C:\Users\User\Documents\aquila\aquila-src\aquila\tools\TextPlot.cpp"
+  
+  MelFilter.cpp
+  MelFilterBank.cpp
+  Dtw.cpp
+  SignalSource.cpp
+  Frame.cpp
+  FramesCollection.cpp
+  PlainTextFile.cpp
+  WaveFile.cpp
+  WaveFileHandler.cpp
+C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFileHandler.cpp(130): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vedere la dichiarazione di 'strncpy'
+C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFileHandler.cpp(134): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vedere la dichiarazione di 'strncpy'
+C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFileHandler.cpp(135): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vedere la dichiarazione di 'strncpy'
+C:\Users\User\Documents\aquila\aquila-src\aquila\source\WaveFileHandler.cpp(143): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: vedere la dichiarazione di 'strncpy'
+  Generator.cpp
+  SineGenerator.cpp
+  SquareGenerator.cpp
+  TriangleGenerator.cpp
+  PinkNoiseGenerator.cpp
+  WhiteNoiseGenerator.cpp
+  BarlettWindow.cpp
+  BlackmanWindow.cpp
+  FlattopWindow.cpp
+  GaussianWindow.cpp
+  HammingWindow.cpp
+  Generazione del codice in corso...
+  Compilazione in corso...
+  HannWindow.cpp
+  Dft.cpp
+  AquilaFft.cpp
+  OouraFft.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2350): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\include\xutility(2350): note: vedere la dichiarazione di 'std::copy::_Unchecked_iterators::_Deprecate'
+  C:\Users\User\Documents\aquila\aquila-src\aquila\transform\OouraFft.cpp(98): note: vedere il riferimento all'istanza '<Sconosciuto>' della funzione <Sconosciuto> di cui è in corso la compilazione
+  FftFactory.cpp
+  Dct.cpp
+  Mfcc.cpp
+  Spectrogram.cpp
+  TextPlot.cpp
+  Generazione del codice in corso...
+  Aquila.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\Debug\Aquila.lib

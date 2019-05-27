@@ -1,0 +1,6 @@
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\poesia_l'amore.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\propositi_di_lettura_per_il_2015.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\intervista_a_emma_marrone.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\test_di_lettura_francesco_torralba.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\spalletti_dopo_bologna_roma.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\una_parlata_tranquilla.wav

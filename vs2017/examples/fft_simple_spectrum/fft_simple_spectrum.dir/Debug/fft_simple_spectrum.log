@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/User/Documents/aquila/aquila-src/examples/fft_simple_spectrum/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/examples/fft_simple_spectrum/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /I"C:\Users\User\Documents\aquila\aquila-src" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_NONSTDC_NO_DEPRECATE /D _USE_MATH_DEFINES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"fft_simple_spectrum.dir\Debug\\" /Fd"fft_simple_spectrum.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\User\Documents\aquila\aquila-src\examples\fft_simple_spectrum\fft_simple_spectrum.cpp"
+  
+  fft_simple_spectrum.cpp
+  fft_simple_spectrum.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\examples\fft_simple_spectrum\Debug\fft_simple_spectrum.exe

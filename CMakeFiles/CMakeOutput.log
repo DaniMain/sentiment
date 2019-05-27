@@ -1,0 +1,732 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 21/02/2017 11:23:25.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verr… ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.7.2\CompilerIdCXX\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdCXX.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.7.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.7.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:03.61
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/3.7.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_660d9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 21/02/2017 11:23:30.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verr… ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_660d9.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_660d9.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_660d9.dir\Debug\cmTC_660d9.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_660d9.dir\Debug\cmTC_660d9.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_660d9.dir\Debug\\" /Fd"cmTC_660d9.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_660d9.dir\Debug\\" /Fd"cmTC_660d9.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_660d9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_660d9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_660d9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_660d9.dir\Debug\testCXXCompiler.obj
+  cmTC_660d9.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_660d9.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_660d9.dir\Debug\cmTC_660d9.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_660d9.dir\Debug\cmTC_660d9.tlog\cmTC_660d9.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_660d9.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:03.58
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_693b0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 21/02/2017 11:23:34.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verr… ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_693b0.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_693b0.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_693b0.dir\Debug\cmTC_693b0.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_693b0.dir\Debug\cmTC_693b0.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_693b0.dir\Debug\\" /Fd"cmTC_693b0.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_693b0.dir\Debug\\" /Fd"cmTC_693b0.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_693b0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_693b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_693b0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_693b0.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_693b0.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_693b0.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_693b0.dir\Debug\cmTC_693b0.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_693b0.dir\Debug\cmTC_693b0.tlog\cmTC_693b0.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_693b0.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:03.23
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7bc02.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 21/02/2017 11:23:39.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verr… ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_7bc02.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_7bc02.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_7bc02.dir\Debug\cmTC_7bc02.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_7bc02.dir\Debug\cmTC_7bc02.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7bc02.dir\Debug\\" /Fd"cmTC_7bc02.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7bc02.dir\Debug\\" /Fd"cmTC_7bc02.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_7bc02.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_7bc02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_7bc02.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7bc02.dir\Debug\feature_tests.obj
+  cmTC_7bc02.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_7bc02.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_7bc02.dir\Debug\cmTC_7bc02.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_7bc02.dir\Debug\cmTC_7bc02.tlog\cmTC_7bc02.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_7bc02.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:03.23
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 21/02/2017 11:23:44.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verr… ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.7.2\CompilerIdC\CompilerIdC.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdC.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.7.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdC.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.7.2\CompilerIdC\CompilerIdC.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:03.05
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/3.7.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_be84f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 21/02/2017 11:23:48.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verr… ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_be84f.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_be84f.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_be84f.dir\Debug\cmTC_be84f.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_be84f.dir\Debug\cmTC_be84f.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be84f.dir\Debug\\" /Fd"cmTC_be84f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be84f.dir\Debug\\" /Fd"cmTC_be84f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_be84f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_be84f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_be84f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_be84f.dir\Debug\testCCompiler.obj
+  cmTC_be84f.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_be84f.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_be84f.dir\Debug\cmTC_be84f.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_be84f.dir\Debug\cmTC_be84f.tlog\cmTC_be84f.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_be84f.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:03.18
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1668d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 21/02/2017 11:23:53.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verr… ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verr… ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_1668d.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_1668d.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_1668d.dir\Debug\cmTC_1668d.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_1668d.dir\Debug\cmTC_1668d.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1668d.dir\Debug\\" /Fd"cmTC_1668d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1668d.dir\Debug\\" /Fd"cmTC_1668d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_1668d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_1668d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_1668d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1668d.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_1668d.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_1668d.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_1668d.dir\Debug\cmTC_1668d.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_1668d.dir\Debug\cmTC_1668d.tlog\cmTC_1668d.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_1668d.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:03.38
+
+
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 09/03/2017 16:37:05.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verrÃ  ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.8.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdCXX.tlog\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.8.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.8.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.42
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/3.8.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e40a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 09/03/2017 16:37:09.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verrÃ  ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_e40a2.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_e40a2.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_e40a2.dir\Debug\cmTC_e40a2.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_e40a2.dir\Debug\cmTC_e40a2.tlog\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e40a2.dir\Debug\\" /Fd"cmTC_e40a2.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e40a2.dir\Debug\\" /Fd"cmTC_e40a2.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_e40a2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_e40a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_e40a2.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_e40a2.dir\Debug\testCXXCompiler.obj
+  cmTC_e40a2.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_e40a2.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_e40a2.dir\Debug\cmTC_e40a2.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_e40a2.dir\Debug\cmTC_e40a2.tlog\cmTC_e40a2.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_e40a2.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.15
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d9456.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 09/03/2017 16:37:12.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verrÃ  ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_d9456.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_d9456.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_d9456.dir\Debug\cmTC_d9456.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_d9456.dir\Debug\cmTC_d9456.tlog\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d9456.dir\Debug\\" /Fd"cmTC_d9456.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d9456.dir\Debug\\" /Fd"cmTC_d9456.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_d9456.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_d9456.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_d9456.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_d9456.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_d9456.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_d9456.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_d9456.dir\Debug\cmTC_d9456.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_d9456.dir\Debug\cmTC_d9456.tlog\cmTC_d9456.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_d9456.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.27
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_afb47.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 09/03/2017 16:37:16.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verrÃ  ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_afb47.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_afb47.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_afb47.dir\Debug\cmTC_afb47.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_afb47.dir\Debug\cmTC_afb47.tlog\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_afb47.dir\Debug\\" /Fd"cmTC_afb47.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_afb47.dir\Debug\\" /Fd"cmTC_afb47.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_afb47.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_afb47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_afb47.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_afb47.dir\Debug\feature_tests.obj
+  cmTC_afb47.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_afb47.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_afb47.dir\Debug\cmTC_afb47.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_afb47.dir\Debug\cmTC_afb47.tlog\cmTC_afb47.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_afb47.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.16
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: /DWIN32;/D_WINDOWS;/W3
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 09/03/2017 16:37:19.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verrÃ  ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.8.0-rc1\CompilerIdC\CompilerIdC.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdC.tlog\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.8.0-rc1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdC.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\3.8.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:01.85
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/3.8.0-rc1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0c4fb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 09/03/2017 16:37:22.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verrÃ  ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_0c4fb.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_0c4fb.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_0c4fb.dir\Debug\cmTC_0c4fb.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_0c4fb.dir\Debug\cmTC_0c4fb.tlog\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4fb.dir\Debug\\" /Fd"cmTC_0c4fb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4fb.dir\Debug\\" /Fd"cmTC_0c4fb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_0c4fb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_0c4fb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_0c4fb.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_0c4fb.dir\Debug\testCCompiler.obj
+  cmTC_0c4fb.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_0c4fb.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_0c4fb.dir\Debug\cmTC_0c4fb.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_0c4fb.dir\Debug\cmTC_0c4fb.tlog\cmTC_0c4fb.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_0c4fb.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.14
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9566a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine versione 14.0.25420.1
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 09/03/2017 16:37:25.
+La destinazione "_ConvertPdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectPdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CollectMdbFiles" elencata in un attributo BeforeTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" non esiste nel progetto e verrÃ  ignorata.
+La destinazione "_CopyMdbFiles" elencata in un attributo AfterTargets in "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" non esiste nel progetto e verrÃ  ignorata.
+Progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_9566a.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_9566a.dir\Debug\".
+  Creazione directory "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_9566a.dir\Debug\cmTC_9566a.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_9566a.dir\Debug\cmTC_9566a.tlog\unsuccessfulbuild". Ãˆ stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9566a.dir\Debug\\" /Fd"cmTC_9566a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.00.24215.1 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9566a.dir\Debug\\" /Fd"cmTC_9566a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_9566a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_9566a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documenti/aquila_prova/aquila-build/CMakeFiles/CMakeTmp/Debug/cmTC_9566a.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_9566a.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_9566a.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\Debug\cmTC_9566a.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_9566a.dir\Debug\cmTC_9566a.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_9566a.dir\Debug\cmTC_9566a.tlog\cmTC_9566a.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documenti\aquila_prova\aquila-build\CMakeFiles\CMakeTmp\cmTC_9566a.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:02.12
+
+

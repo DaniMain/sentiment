@@ -1,0 +1,6 @@
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\motociclista_2.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\ragazzina_sclera_su_ask.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\Ragazzo_si_incazza_e_rompe_il_computer.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\litigio_di_sgarbi.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\motociclista_1.wav
+C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\audio\Super_Angry_Australian.wav

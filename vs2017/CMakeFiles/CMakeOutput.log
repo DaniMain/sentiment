@@ -1,0 +1,339 @@
+The system is: Windows - 10.0.14393 - AMD64
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versione 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 26/04/2017 22:56:54.
+Progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdCXX.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:08.69
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/3.8.0-rc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_68996.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versione 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 26/04/2017 22:57:07.
+Progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_68996.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_68996.dir\Debug\".
+  Creazione directory "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_68996.dir\Debug\cmTC_68996.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_68996.dir\Debug\cmTC_68996.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68996.dir\Debug\\" /Fd"cmTC_68996.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_68996.dir\Debug\\" /Fd"cmTC_68996.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_68996.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_68996.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_68996.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_68996.dir\Debug\testCXXCompiler.obj
+  cmTC_68996.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_68996.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_68996.dir\Debug\cmTC_68996.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_68996.dir\Debug\cmTC_68996.tlog\cmTC_68996.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_68996.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:10.88
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_bfef2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versione 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 26/04/2017 22:57:22.
+Progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_bfef2.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_bfef2.dir\Debug\".
+  Creazione directory "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_bfef2.dir\Debug\cmTC_bfef2.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_bfef2.dir\Debug\cmTC_bfef2.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bfef2.dir\Debug\\" /Fd"cmTC_bfef2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bfef2.dir\Debug\\" /Fd"cmTC_bfef2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_bfef2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_bfef2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_bfef2.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_bfef2.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_bfef2.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_bfef2.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_bfef2.dir\Debug\cmTC_bfef2.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_bfef2.dir\Debug\cmTC_bfef2.tlog\cmTC_bfef2.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_bfef2.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:07.01
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_ae8ee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versione 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 26/04/2017 22:57:33.
+Progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_ae8ee.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_ae8ee.dir\Debug\".
+  Creazione directory "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_ae8ee.dir\Debug\cmTC_ae8ee.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_ae8ee.dir\Debug\cmTC_ae8ee.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ae8ee.dir\Debug\\" /Fd"cmTC_ae8ee.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  feature_tests.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ae8ee.dir\Debug\\" /Fd"cmTC_ae8ee.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_ae8ee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_ae8ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_ae8ee.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_ae8ee.dir\Debug\feature_tests.obj
+  cmTC_ae8ee.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_ae8ee.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_ae8ee.dir\Debug\cmTC_ae8ee.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_ae8ee.dir\Debug\cmTC_ae8ee.tlog\cmTC_ae8ee.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_ae8ee.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:09.59
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine versione 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 26/04/2017 22:57:46.
+Progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CompilerIdC\CompilerIdC.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "Debug\".
+  Creazione directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creazione di "Debug\CompilerIdC.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\cl.exe
+FinalizeBuildStatus:
+  Eliminazione del file "Debug\CompilerIdC.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\3.8.0-rc1\CompilerIdC\CompilerIdC.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:09.74
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/3.8.0-rc1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2277c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versione 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 26/04/2017 22:58:00.
+Progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_2277c.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_2277c.dir\Debug\".
+  Creazione directory "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_2277c.dir\Debug\cmTC_2277c.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_2277c.dir\Debug\cmTC_2277c.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2277c.dir\Debug\\" /Fd"cmTC_2277c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  testCCompiler.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2277c.dir\Debug\\" /Fd"cmTC_2277c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_2277c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_2277c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_2277c.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_2277c.dir\Debug\testCCompiler.obj
+  cmTC_2277c.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_2277c.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_2277c.dir\Debug\cmTC_2277c.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_2277c.dir\Debug\cmTC_2277c.tlog\cmTC_2277c.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_2277c.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:10.10
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7a453.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine versione 15.1.1012.6693
+Copyright (C) Microsoft Corporation. Tutti i diritti sono riservati.
+
+Compilazione avviata 26/04/2017 22:58:13.
+Progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_7a453.vcxproj" sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory "cmTC_7a453.dir\Debug\".
+  Creazione directory "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\".
+  Creazione directory "cmTC_7a453.dir\Debug\cmTC_7a453.tlog\".
+InitializeBuildStatus:
+  Creazione di "cmTC_7a453.dir\Debug\cmTC_7a453.tlog\unsuccessfulbuild". Ô stato specificato "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a453.dir\Debug\\" /Fd"cmTC_7a453.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler versione 19.10.25019 per x86
+  Copyright (C) Microsoft Corporation. Tutti i diritti  sono riservati.
+  
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a453.dir\Debug\\" /Fd"cmTC_7a453.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_7a453.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_7a453.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/User/Documents/sentiment_per_tirocinio/sentiment/vs2017/CMakeFiles/CMakeTmp/Debug/cmTC_7a453.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_7a453.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_7a453.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\Debug\cmTC_7a453.exe
+FinalizeBuildStatus:
+  Eliminazione del file "cmTC_7a453.dir\Debug\cmTC_7a453.tlog\unsuccessfulbuild" in corso.
+  Aggiornamento timestamp di "cmTC_7a453.dir\Debug\cmTC_7a453.tlog\cmTC_7a453.lastbuildstate".
+Compilazione progetto "C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\vs2017\CMakeFiles\CMakeTmp\cmTC_7a453.vcxproj" (destinazioni predefinite) completata.
+
+Compilazione completata.
+    Avvisi: 0
+    Errori: 0
+
+Tempo trascorso 00:00:09.18
+
+

@@ -1,0 +1,16 @@
+﻿  analisi_file_audio_normalizzato.cpp
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(99): warning C4244: 'inizializzazione': conversione da 'double' a '::size_t'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(102): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(147): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(148): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(149): warning C4244: '=': conversione da 'Aquila::SampleType' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(153): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(154): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(155): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(157): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(162): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(166): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(170): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+c:\users\user\documents\sentiment_per_tirocinio\sentiment\aquila\analisi_file_audio_normalizzato\analisi_file_audio_normalizzato.cpp(172): warning C4244: '=': conversione da 'double' a 'int'. Possibile perdita di dati.
+  analisi_file_audio_normalizzato.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio_normalizzato.exe
+  analisi_file_audio_normalizzato.vcxproj -> C:\Users\User\Documents\sentiment_per_tirocinio\sentiment\Aquila\Debug\analisi_file_audio_normalizzato.pdb (Partial PDB)

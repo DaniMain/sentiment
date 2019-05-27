@@ -1,0 +1,25 @@
+﻿  Building Custom Rule C:/Users/User/Documenti/aquila_prova/aquila-src/lib/unittestpp/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/User/Documenti/aquila_prova/aquila-build/lib/unittestpp/CMakeFiles/generate.stamp is up-to-date.
+  Main.cpp
+  TestAssertHandler.cpp
+  TestCheckMacros.cpp
+  TestChecks.cpp
+  TestCompositeTestReporter.cpp
+  TestCurrentTest.cpp
+  TestDeferredTestReporter.cpp
+  TestExceptions.cpp
+  TestMemoryOutStream.cpp
+  TestTest.cpp
+  TestTestList.cpp
+  TestTestMacros.cpp
+C:\Users\User\Documenti\aquila_prova\aquila-src\lib\unittestpp\tests\TestTestMacros.cpp(141): warning C4297: '`anonymous-namespace'::FixtureDtorThrows::~FixtureDtorThrows': la funzione genera un'eccezione benché ciò non fosse previsto
+  C:\Users\User\Documenti\aquila_prova\aquila-src\lib\unittestpp\tests\TestTestMacros.cpp(141): note: il distruttore o il deallocatore contiene una specifica di eccezione non generata (possibilmente implicita)
+  TestTestResults.cpp
+  TestTestRunner.cpp
+  TestTestSuite.cpp
+  TestTimeConstraint.cpp
+  TestTimeConstraintMacro.cpp
+  TestUnitTestPP.cpp
+  TestXmlTestReporter.cpp
+  Generazione del codice in corso...
+  TestUnitTest++.vcxproj -> C:\Users\User\Documenti\aquila_prova\aquila-build\lib\unittestpp\Debug\TestUnitTest++.exe
